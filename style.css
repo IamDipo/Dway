@@ -1,0 +1,1661 @@
+@import url("https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+header {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.head-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5rem 4rem;
+}
+.logo {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.lists {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.hamburger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 25px;
+}
+
+.hamburger .line {
+  height: 4px;
+  width: 100%;
+  background-color: #0d5262;
+}
+.lists ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.lists ul li {
+  margin: 0 0.4rem;
+  list-style: none;
+}
+.lists ul li a {
+  font-family: "Anuphan", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0d5262;
+  line-height: 24px;
+  letter-spacing: 1%;
+}
+.page1 {
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/electrician-carefully-wiring-buildings-electrical-system-generative-ai_266732-43529\ 1.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
+.page1-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 5rem;
+  row-gap: 1.2rem;
+}
+.page1-con-Btext h1 {
+  font-weight: 600;
+  font-size: 57px;
+  font-family: "Gothic A1", sans-serif;
+  color: white;
+  width: 50rem;
+  line-height: 80px;
+  letter-spacing: 0%;
+}
+.page1-con-Stext p {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Gothic A1", sans-serif;
+  color: #fcfeff;
+  width: 32rem;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+.btn {
+  display: flex;
+  column-gap: 1.5rem;
+}
+.btn-1 {
+  padding: 1rem 2rem;
+  outline: none;
+  color: #fcfeff;
+  background-color: #0d5262;
+  border: 1px solid #fcfeff;
+  border-radius: 1.5rem;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Gothic A1", sans-serif;
+  cursor: pointer;
+}
+.btn-1:hover {
+  background-color: #656c72;
+}
+.btn-2 {
+  padding: 1rem 2rem;
+  outline: none;
+  color: #fcfeff;
+  background-color: #656c72;
+  border: 1px solid #fcfeff;
+  border-radius: 1.5rem;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Gothic A1", sans-serif;
+  cursor: pointer;
+}
+.btn-2:hover {
+  background-color: #0d5262;
+}
+.page2 {
+  width: 100%;
+  height: auto;
+  background-color: #fcfeff;
+  padding: 0 0;
+}
+.page2-content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1.5rem;
+}
+.texts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10rem;
+}
+.page2-con-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.page2-con-text h1 {
+  font-weight: 700;
+  color: #0d5262;
+  font-size: 28px;
+  font-family: "Gothic A1", sans-serif;
+}
+.page2-con-text p {
+  font-weight: 200;
+  font-size: 15px;
+  font-family: "Gothic A1", sans-serif;
+  color: #0d5262;
+}
+.line {
+  width: 104%;
+  height: 2px;
+  background-color: #0d5262;
+}
+.page3 {
+  width: 100%;
+  height: auto;
+  background-color: #fcfeff;
+}
+.page3-con {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5rem;
+}
+.page3-left-con {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.page3-about h1 {
+  font-weight: 600;
+  color: #0d5262;
+  font-size: 36px;
+  font-family: "Gothic A1", sans-serif;
+  line-height: 52px;
+}
+.page3-text p {
+  width: 30rem;
+  color: #0d5262;
+  font-size: 22px;
+  font-family: "Gothic A1", sans-serif;
+  line-height: 36px;
+}
+.bold {
+  font-weight: bold;
+}
+.page3-right-con {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.page3-img img {
+  width: 90%;
+}
+.page4 {
+  width: 100%;
+  height: auto;
+  background-color: #fcfeff;
+}
+.page4-con {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5rem;
+}
+.page4-left-con {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.page4-img img {
+  width: 90%;
+}
+.page4-right-con {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.page4-text p {
+  width: 33rem;
+  color: #0d5262;
+  font-size: 22px;
+  font-family: "Gothic A1", sans-serif;
+  line-height: 36px;
+}
+.page5 {
+  width: 100%;
+  height: auto;
+  background-color: #fcfeff;
+}
+.page5-con {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+.page5-left-con {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+.page5-text p {
+  width: 30rem;
+  color: #0d5262;
+  font-size: 22px;
+  font-family: "Gothic A1", sans-serif;
+  line-height: 36px;
+}
+.page5-right-con {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.page5-img img {
+  width: 90%;
+}
+.page6 {
+  width: 100%;
+  height: auto;
+  background-color: #02242c;
+}
+.page6-con {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: start;
+  padding: 5rem;
+  row-gap: 1rem;
+}
+.page6-con-top {
+  width: fit-content;
+  height: auto;
+}
+.page6-con-top h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Gothic A1", sans-serif;
+  line-height: 36px;
+}
+.page6-con-main {
+  display: flex;
+  width: fit-content;
+  align-items: start;
+  justify-content: space-between;
+  height: auto;
+  flex-wrap: wrap;
+  column-gap: 5rem;
+  row-gap: 2rem;
+}
+.boxes {
+  background-color: white;
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 2rem;
+  row-gap: 1rem;
+}
+.boxes h3 {
+  color: black;
+  font-size: 20px;
+  font-family: "Gothic A1", sans-serif;
+  line-height: 28px;
+}
+.boxes p {
+  color: #0d5262;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Gothic A1", sans-serif;
+  line-height: 32px;
+}
+.page7 {
+  width: 100%;
+  height: auto;
+  background-color: #fcfeff;
+}
+.page7-con {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 5rem;
+  row-gap: 2rem;
+}
+.page7-top {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: auto;
+}
+.page7-top-texts {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: auto;
+}
+.page7-top-texts h1 {
+  color: #0d5262;
+  font-size: 38px;
+  font-weight: 600;
+  font-family: "Gothic A1", sans-serif;
+  line-height: 36px;
+}
+.page7-top-texts p {
+  color: #0d5262;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Gothic A1", sans-serif;
+  line-height: 28px;
+}
+.page7-main {
+  width: fit-content;
+  height: auto;
+  display: flex;
+}
+.page7-main-texts {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.main-text {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.main-text h3 {
+  color: #0d5262;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Gothic A1", sans-serif;
+}
+.main-text p {
+  color: #0d5262;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Gothic A1", sans-serif;
+  line-height: 28px;
+}
+.page8 {
+  width: 100%;
+  height: auto;
+  background-color: #b8f2ff;
+}
+.page8-con {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 5rem;
+  row-gap: 1.2rem;
+}
+.page8-con-top {
+  width: fit-content;
+  height: auto;
+}
+.page8-con-top h1 {
+  color: #0d5262;
+  font-size: 38px;
+  font-weight: 600;
+  font-family: "Gothic A1", sans-serif;
+  line-height: 36px;
+}
+.page8-main {
+  width: 100%;
+  height: auto;
+}
+.containers {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto; */
+  /* display: flex;
+  flex-wrap: wrap;
+  gap: 4rem; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 4rem;
+}
+.container {
+  width: 100%;
+  max-width: 23rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #0d5262;
+  border-radius: 1.5rem;
+}
+.images img {
+  width: 23rem;
+}
+.text-and-btn {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.6rem;
+  align-items: start;
+  padding: 1rem;
+}
+.text-and-btn h3 {
+  color: #fcfeff;
+  font-size: 17px;
+  text-align: left;
+  font-weight: 800;
+  font-family: "Gothic A1", sans-serif;
+}
+.text-and-btn p {
+  text-align: left;
+  color: #fcfeff;
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+.text-and-btn button {
+  padding: 0.5rem 0.8rem;
+  background-color: #0d5262;
+  color: #fcfeff;
+  outline: none;
+  border: 1px solid #fcfeff;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.text-and-btn button:hover {
+  background-color: #fcfeff;
+  color: #0d5262;
+  border-color: #0d5262;
+}
+.page9 {
+  width: 100%;
+  height: auto;
+  background-color: #548591;
+}
+.page9-con {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 5rem;
+  row-gap: 1.5rem;
+}
+.page9-con-top {
+  width: 100%;
+  height: auto;
+}
+.text-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-link h1 {
+  color: #fcfeff;
+  font-size: 47px;
+  text-align: left;
+  font-weight: 600;
+  font-family: "Gothic A1", sans-serif;
+}
+.text-link a {
+  color: #fcfeff;
+  font-size: 17px;
+  text-align: end;
+  font-weight: 600;
+  font-family: "Gothic A1", sans-serif;
+}
+.page9-main {
+  width: 100%;
+  height: auto;
+}
+.page9-image-con {
+  /* display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 4rem;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 4rem;
+}
+.page9-image-con img {
+  width: 100%;
+}
+.hidden {
+  display: none;
+}
+.page10 {
+  width: 100%;
+  height: auto;
+  background-color: #fcfeff;
+  padding: 5rem 0;
+}
+.page10-con {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.page10-con-top {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thick-line {
+  width: 100%;
+  height: 4px;
+  background-color: #0d5262;
+}
+.page10-main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  padding: 5rem 5rem 0 5rem;
+  column-gap: 2.8rem;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+.info h3 {
+  font-family: "Anuphan", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #0d5262;
+}
+.numbers {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 0.2rem;
+}
+.numbers h6 {
+  font-family: "Anuphan", sans-serif;
+  font-size: 22px;
+  color: #0d5262;
+  font-weight: 400;
+}
+.nos {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.2rem;
+  padding: 0.2rem;
+}
+.nos p {
+  font-family: "Anuphan", sans-serif;
+  font-size: 16px;
+  color: #0d5262;
+  font-weight: 400;
+}
+.info p {
+  width: 17rem;
+  font-family: "Anuphan", sans-serif;
+  font-size: 15px;
+  color: #0d5262;
+  font-weight: 400;
+}
+.info h1 {
+  font-family: "Anuphan", sans-serif;
+  font-size: 34px;
+  color: #0d5262;
+  font-weight: 700;
+}
+.info h4 {
+  width: 20rem;
+  font-family: "Anuphan", sans-serif;
+  font-size: 15px;
+  color: #0d5262;
+  font-weight: 400;
+}
+footer {
+  background-color: #0d5262;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  font-family: "Anuphan", sans-serif;
+  font-size: 15px;
+  color: #fcfeff;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+  .page3-con {
+    display: flex;
+    gap: 2rem;
+    padding: 4rem 1rem 2rem 5rem;
+  }
+  .page3-right-con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  .page3-img img {
+    width: fit-content;
+  }
+
+  .page3-text p {
+    font-size: 16px;
+    width: 90%;
+  }
+  .page4-con {
+    display: flex;
+    gap: 2rem;
+    padding: 4rem 1rem 2rem 5rem;
+  }
+  .page4-right-con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  .page4-img img {
+    width: fit-content;
+  }
+
+  .page4-text p {
+    font-size: 16px;
+    width: 90%;
+  }
+  .page5-con {
+    display: flex;
+    gap: 2rem;
+    padding: 4rem 1rem 2rem 5rem;
+  }
+  .page5-right-con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  .page5-img img {
+    width: fit-content;
+  }
+
+  .page5-text p {
+    font-size: 16px;
+    width: 90%;
+  }
+  .page8 {
+    width: 100%;
+    height: auto;
+    background-color: #b8f2ff;
+  }
+  .page8-con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 3rem 0 2rem 5rem;
+    gap: 1.2rem;
+  }
+  .page8-con-top {
+    width: 100%;
+    height: auto;
+  }
+  .page8-con-top h1 {
+    color: #0d5262;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Gothic A1", sans-serif;
+    line-height: 30px;
+  }
+  .page8-main {
+    width: 100%;
+    height: auto;
+  }
+
+  .containers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .head-con {
+    margin: 1rem;
+  }
+
+  .logo img {
+    width: 150px;
+  }
+
+  .lists {
+    display: none;
+  }
+
+  .lists.active {
+    display: flex;
+  }
+
+  .lists ul {
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .page1 {
+    width: 100%;
+    height: 70%;
+    background-image: url(./images/electrician-carefully-wiring-buildings-electrical-system-generative-ai_266732-43529\ 1.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+  }
+  .page1-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 4rem 1rem 2rem 3rem;
+    row-gap: 1.2rem;
+  }
+
+  .page1-con-Btext h1 {
+    width: 30rem;
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .page1-con-Stext p {
+    font-size: 14px;
+  }
+
+  .btn-1,
+  .btn-2 {
+    padding: 0.5rem 1rem;
+  }
+  .page2 {
+    display: none;
+  }
+  .page3-con {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem 1rem 2rem 3rem;
+  }
+  .page3-right-con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  .page3-img img {
+    width: 130%;
+  }
+
+  .page3-text p {
+    font-size: 16px;
+    width: 100%;
+  }
+  .page4-con {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1rem 2rem 3rem;
+  }
+  .page4-right-con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  .page4-img img {
+    width: 130%;
+  }
+
+  .page4-text p {
+    font-size: 16px;
+    width: 100%;
+  }
+  .page5-con {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 1rem 2rem 3rem;
+    margin-top: -3rem;
+  }
+  .page5-right-con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  .page5-img img {
+    width: 130%;
+  }
+
+  .page5-text p {
+    font-size: 16px;
+    width: 99%;
+  }
+
+  .page6 {
+    width: 100%;
+    height: auto;
+    background-color: #02242c;
+  }
+  .page6-con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: start;
+    padding: 3rem 0 2rem 3rem;
+    gap: 1rem;
+  }
+  .page6-con-top {
+    width: 100%;
+    height: auto;
+  }
+  .page6-con-top h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Gothic A1", sans-serif;
+    line-height: 36px;
+  }
+  .page6-con-main {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+    height: auto;
+    gap: 1rem;
+  }
+  .boxes {
+    background-color: white;
+    width: 12rem;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 1rem;
+    row-gap: 1rem;
+  }
+  .boxes h3 {
+    color: black;
+    font-size: 15px;
+    font-family: "Gothic A1", sans-serif;
+    line-height: 28px;
+  }
+  .boxes p {
+    color: #0d5262;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: "Gothic A1", sans-serif;
+    line-height: 20px;
+  }
+  .page7 {
+    width: 100%;
+    height: auto;
+    background-color: #fcfeff;
+  }
+  .page7-con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 3rem 1rem 2rem 3rem;
+    gap: 2rem;
+  }
+  .page7-top {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: auto;
+  }
+  .page7-top-texts {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: auto;
+    gap: 1rem;
+  }
+  .page7-top-texts h1 {
+    color: #0d5262;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Gothic A1", sans-serif;
+    line-height: 30px;
+  }
+  .page7-top-texts p {
+    color: #0d5262;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Gothic A1", sans-serif;
+    line-height: 28px;
+  }
+  .page7-main {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  .page7-main-texts {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .main-text {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+  }
+  .main-text h3 {
+    color: #0d5262;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Gothic A1", sans-serif;
+  }
+  .main-text p {
+    color: #0d5262;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Gothic A1", sans-serif;
+    line-height: 20px;
+  }
+  .page8 {
+    width: 100%;
+    height: auto;
+    background-color: #b8f2ff;
+  }
+  .page8-con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 3rem 0 2rem 3rem;
+    gap: 1.2rem;
+  }
+  .page8-con-top {
+    width: 100%;
+    height: auto;
+  }
+  .page8-con-top h1 {
+    color: #0d5262;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Gothic A1", sans-serif;
+    line-height: 30px;
+  }
+  .page8-main {
+    width: 100%;
+    height: auto;
+  }
+
+  .containers {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 20rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #0d5262;
+    border-radius: 1.5rem;
+  }
+  .images img {
+    width: 20rem;
+  }
+  .text-and-btn {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.6rem;
+    align-items: start;
+    padding: 1rem;
+  }
+  .text-and-btn h3 {
+    color: #fcfeff;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 800;
+    font-family: "Gothic A1", sans-serif;
+  }
+  .text-and-btn p {
+    text-align: left;
+    color: #fcfeff;
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .text-and-btn button {
+    padding: 0.5rem 0.8rem;
+    background-color: #0d5262;
+    color: #fcfeff;
+    outline: none;
+    border: 1px solid #fcfeff;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  .text-and-btn button:hover {
+    background-color: #fcfeff;
+    color: #0d5262;
+    border-color: #0d5262;
+  }
+  .page9 {
+    width: 100%;
+    height: auto;
+    background-color: #548591;
+  }
+  .page9-con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 3rem 3rem 2rem 3rem;
+    row-gap: 1.5rem;
+  }
+  .page9-con-top {
+    width: 100%;
+    height: auto;
+  }
+  .text-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .text-link h1 {
+    color: #fcfeff;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 600;
+    font-family: "Gothic A1", sans-serif;
+  }
+  .text-link a {
+    color: #fcfeff;
+    font-size: 14px;
+    text-align: end;
+    font-weight: 600;
+    font-family: "Gothic A1", sans-serif;
+  }
+  .page9-main {
+    width: 100%;
+    height: auto;
+  }
+  .page9-image-con {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .page9-image-con img {
+    width: 30.1%;
+  }
+  .hidden {
+    display: none;
+  }
+  .page10 {
+    width: 100%;
+    height: auto;
+    background-color: #fcfeff;
+    padding: 3rem 0;
+  }
+  .page10-con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 0 3rem 0;
+  }
+  .page10-con-top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .thick-line {
+    width: 100%;
+    height: 4px;
+    background-color: #0d5262;
+  }
+  .page10-main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+    padding: 3rem 5rem 0 3rem;
+    gap: 1.5rem;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+  .info h3 {
+    font-family: "Anuphan", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0d5262;
+  }
+  .numbers {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 0.2rem;
+  }
+  .numbers h6 {
+    font-family: "Anuphan", sans-serif;
+    font-size: 18px;
+    color: #0d5262;
+    font-weight: 400;
+  }
+  .nos {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.2rem;
+    padding: 0.2rem;
+  }
+  .nos p {
+    font-family: "Anuphan", sans-serif;
+    font-size: 14px;
+    color: #0d5262;
+    font-weight: 400;
+  }
+  .info p {
+    width: 14rem;
+    font-family: "Anuphan", sans-serif;
+    font-size: 15px;
+    color: #0d5262;
+    font-weight: 400;
+  }
+  .info h1 {
+    font-family: "Anuphan", sans-serif;
+    font-size: 30px;
+    color: #0d5262;
+    font-weight: 700;
+    margin-left: 8rem;
+  }
+  .info h4 {
+    width: 24rem;
+    font-family: "Anuphan", sans-serif;
+    font-size: 15px;
+    color: #0d5262;
+    font-weight: 400;
+    padding-left: 8rem;
+  }
+  footer {
+    background-color: #0d5262;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer p {
+    font-family: "Anuphan", sans-serif;
+    font-size: 13px;
+    color: #fcfeff;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  * {
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .head-con {
+    margin: 0.5rem;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+
+  .lists {
+    display: none;
+  }
+
+  .lists.active {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .lists ul {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: white;
+    padding: 0.8rem;
+    width: 100%;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .page1 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(./images/electrician-carefully-wiring-buildings-electrical-system-generative-ai_266732-43529\ 1.svg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .page1-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 1rem;
+    padding: 4rem 1rem 2rem 2rem;
+  }
+
+  .page1-con-Btext h1 {
+    width: 100%;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .page1-con-Stext p {
+    font-size: 12px;
+    width: 90%;
+  }
+  .page3-con {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 4rem 1rem 2rem 2rem;
+  }
+  .page3-right-con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  .page3-img img {
+    width: 100%;
+  }
+
+  .page3-text p {
+    font-size: 14px;
+    width: 90%;
+  }
+  .page4-con {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem 1rem 2rem 2rem;
+  }
+  .page4-right-con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  .page4-img img {
+    width: 100%;
+  }
+
+  .page4-text p {
+    font-size: 14px;
+    width: 90%;
+  }
+  .page5-con {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1rem 2rem 2rem;
+    margin-top: -3rem;
+  }
+  .page5-right-con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  .page5-img img {
+    width: 100%;
+  }
+
+  .page5-text p {
+    font-size: 14px;
+    width: 90%;
+  }
+  .page6-con {
+    padding: 2rem 1rem 2rem 2rem;
+  }
+  .page6-con-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+    height: auto;
+    gap: 0.5rem;
+  }
+  .boxes {
+    background-color: white;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 0.5rem;
+    row-gap: 1rem;
+  }
+  .boxes h3 {
+    color: black;
+    font-size: 12px;
+    font-family: "Gothic A1", sans-serif;
+    line-height: 20px;
+  }
+  .boxes p {
+    color: #0d5262;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: "Gothic A1", sans-serif;
+    line-height: 17px;
+  }
+
+  .btn-1,
+  .btn-2 {
+    padding: 0.4rem 0.8rem;
+  }
+
+  /* .page7 {
+    padding: 2rem 1rem;
+  } */
+  .page7-con {
+    padding: 2rem 1rem 2rem 2rem;
+  }
+
+  .page7-top-texts h1 {
+    font-size: 25px;
+    line-height: 28px;
+  }
+
+  .page7-top-texts p {
+    font-size: 15px;
+  }
+  .main-text p {
+    font-size: 15px;
+  }
+  .page8 {
+    width: 100%;
+    height: auto;
+    background-color: #b8f2ff;
+  }
+  .page8-con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 2rem 1rem 2rem 2rem;
+    gap: 1.2rem;
+  }
+  .page8-con-top {
+    width: 100%;
+    height: auto;
+  }
+  .page8-con-top h1 {
+    color: #0d5262;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Gothic A1", sans-serif;
+    line-height: 30px;
+  }
+  .page8-main {
+    width: 100%;
+    height: auto;
+  }
+
+  .containers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 10rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #0d5262;
+    border-radius: 1rem;
+  }
+  .images img {
+    width: 10rem;
+  }
+
+  .text-and-btn {
+    padding: 0.8rem;
+  }
+
+  .text-and-btn h3 {
+    font-size: 14px;
+  }
+
+  .text-and-btn p {
+    font-size: 11px;
+  }
+
+  .text-and-btn button {
+    padding: 0.4rem 0.6rem;
+    font-size: 10px;
+  }
+  .page9 {
+    width: 100%;
+    height: auto;
+    background-color: #548591;
+  }
+  .page9-con {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 2rem 1rem 2rem 2rem;
+    row-gap: 1.5rem;
+  }
+  .page9-con-top {
+    width: 100%;
+    height: auto;
+  }
+  .text-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .text-link h1 {
+    color: #fcfeff;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 600;
+    font-family: "Gothic A1", sans-serif;
+  }
+  .text-link a {
+    color: #fcfeff;
+    font-size: 14px;
+    text-align: end;
+    font-weight: 600;
+    font-family: "Gothic A1", sans-serif;
+  }
+  .page9-main {
+    width: 100%;
+    height: auto;
+  }
+  .page9-image-con {
+    /* display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 2rem;
+    flex-wrap: wrap; */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+  .page9-image-con img {
+    width: 31%;
+  }
+  .hidden {
+    display: none;
+  }
+  .info h1 {
+    font-family: "Anuphan", sans-serif;
+    font-size: 30px;
+    color: #0d5262;
+    font-weight: 700;
+    margin-right: 8rem;
+    display: none;
+  }
+  .info h4 {
+    width: 24rem;
+    font-family: "Anuphan", sans-serif;
+    font-size: 15px;
+    color: #0d5262;
+    font-weight: 400;
+    padding-right: 8rem;
+    display: none;
+  }
+  .page10-main {
+    padding: 2rem 1rem 2rem 2rem;
+  }
+
+  footer {
+    padding: 1rem;
+  }
+
+  footer p {
+    font-size: 12px;
+    text-align: center;
+  }
+}
